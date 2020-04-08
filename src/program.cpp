@@ -25,5 +25,5 @@ void printCircle() {
     float area = circle->calculateArea();
     std::cout << "Circle has a radius of '" << circle->getRadius() << "'\n";
     std::cout << area << "\n";
-    delete circle;
+    delete circle; 
 }
