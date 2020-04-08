@@ -9,7 +9,7 @@ INCLUDE  := -I./
 SRC      :=                      \
    $(wildcard src/module1/*.cpp) \
    $(wildcard src/module2/*.cpp) \
-   $(wildcard src/module3/*.cpp) \
+   $(wildcard src/*/*.cpp) \
    $(wildcard src/*.cpp)         \
 
 OBJECTS  := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
