@@ -1,4 +1,4 @@
-#include "include/shapes/rectangle.h"
+#include "shapes/rectangle.h"
 
 Rectangle::Rectangle(int width, int height){
     this->width = width;
